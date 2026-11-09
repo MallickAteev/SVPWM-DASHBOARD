@@ -14,7 +14,7 @@ from plotly.subplots import make_subplots
 import losses as ls
 import svpwm as sv
 
-st.set_page_config(page_title="SVPWM Inverter Lab @mlkateev", page_icon="⚡", layout="wide")
+st.set_page_config(page_title="SVPWM Inverter Lab", page_icon="⚡", layout="wide")
 
 # Guard against mixing old and new files (Python keeps an already-imported svpwm.py until the server restarts).
 import inspect  # noqa: E402
